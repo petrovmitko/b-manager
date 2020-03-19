@@ -1,0 +1,13 @@
+<div class="set-body">
+    <div class="row">
+        <div class="col-12"><div class="display-5">SETTINGS #{{ 22 }}</div></div>
+        <div class="col-6"><label for="flat-num">Flat number</label></div>
+        <div class="col-6"><input type="text" name="flat-num"></div>
+        <div class="col-6"><label for="flat-fee">Montly fee</label></div>
+        <div class="col-6"><input type="number" name="flat-fee"></div>
+        <div class="col-6"><label for="total-amount">Total due</label></div>
+        <div class="col-6"><input type="number" name="total-amount"></div>
+    </div>
+    <button class="btn btn-success">OK</button>
+    <button class="btn btn-danger" (click)="commonService.hideSet()">Cancel</button>
+</div>

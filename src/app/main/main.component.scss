@@ -1,0 +1,45 @@
+.container{
+    border: 1px dashed red;
+    margin-top: 80px;
+
+}
+.display-2{
+    text-align: center;
+}
+.row{
+    width: 100%;
+    height: auto;
+}
+.top-row, .bottom-row{
+    width: 100%;
+    display: flex;
+}
+.top-row{
+    margin-top: 10px;
+    
+}
+.bottom-row{
+    margin-bottom: 10px;
+}
+.num, .fee, .settings, .total{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #20639B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background: whitesmoke;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+.settings:hover{
+ background: greenyellow;
+ cursor: pointer; 
+}
+.fade{
+    display: none;
+}
+.show{
+    display: block;
+}

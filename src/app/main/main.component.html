@@ -1,0 +1,16 @@
+<div class="display-2 my-auto">Блок {{ building }}</div>
+<div class="container">
+    <div class="row no-gutters">
+        <div *ngFor="let fa of flatArray" class="col-lg-2 no-gutters">
+            <div class="top-row">
+                <div class="num"># {{ fa }}</div>
+                <div class="fee">fee {{ fee }}лв.</div>
+            </div>
+            <div class="bottom-row">
+                <div class="total">Due {{ amount }}лв.</div>
+                <div class="settings" (click)="commonService.showSet()"><i class="fas fa-cogs fa-2x"></i></div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-settings [ngClass]="!commonService.toggle ? 'fade' : 'show'"></app-settings>
