@@ -1,10 +1,14 @@
 .container{
-    border: 1px dashed red;
+    border: 1px solid #20639B;
     margin-top: 80px;
-
 }
 .display-2{
     text-align: center;
+    color: #20639B;
+}
+.display-4{
+    text-align: right;
+    color: #20639B;
 }
 .row{
     width: 100%;
@@ -16,13 +20,12 @@
 }
 .top-row{
     margin-top: 10px;
-    
 }
 .bottom-row{
     margin-bottom: 10px;
 }
 .num, .fee, .settings, .total{
-    width: 200px;
+    width: 100%;
     height: 50px;
     border: 1px solid #20639B;
     display: flex;
@@ -32,6 +35,9 @@
     background: whitesmoke;
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
+}
+.fee, .settings{
+    margin-right: 6px;
 }
 .settings:hover{
  background: greenyellow;
