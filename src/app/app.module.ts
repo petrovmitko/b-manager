@@ -7,12 +7,14 @@ import { MainComponent } from './main/main.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SettingsComponent } from './settings/settings.component';
 import { CommonService } from './common.service';
+import { PnfComponent } from './pnf/pnf.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    SettingsComponent
+    SettingsComponent,
+    PnfComponent
   ],
   imports: [
     BrowserModule,
